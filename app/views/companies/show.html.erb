@@ -12,5 +12,5 @@
 </ul>
 
 <p>
-<a href="/contacts/new?company_id=<% @company["id"]%>"> Create a contact at <%= @company["name"]%> </a>
+  <a href="/contacts/new?company_id=<%= @company.id %>">New contact for <%= @company.name %></a>
 </p>
